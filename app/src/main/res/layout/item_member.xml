@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    app:cardCornerRadius="10dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true"
+    >
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <ImageView
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:id="@+id/imageMember"
+            app:tint="@color/brown1"
+            android:src="@drawable/ic_baseline_person_24"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nameMember"
+            android:text="Nama Lengkap"
+            android:textColor="@color/brown1"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/imageMember"
+            android:layout_toEndOf="@id/imageMember"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/genderMember"
+            android:text="Gender"
+            android:textColor="@color/brown1"
+            android:textSize="8dp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/imageMember"
+            android:layout_toEndOf="@id/imageMember"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_below="@id/nameMember"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/noTelpMember"
+            android:text="No Telpon"
+            android:textColor="@color/brown1"
+            android:textSize="8dp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/imageMember"
+            android:layout_toEndOf="@id/imageMember"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_below="@id/genderMember"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/usiaMember"
+            android:text="Usia"
+            android:textColor="@color/brown1"
+            android:textSize="8dp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/imageMember"
+            android:layout_toEndOf="@id/imageMember"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_below="@id/noTelpMember"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/favoritMember"
+            android:text="Favorit"
+            android:textColor="@color/brown1"
+            android:textSize="8dp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/imageMember"
+            android:layout_toEndOf="@id/imageMember"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_below="@id/usiaMember"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/emailMember"
+            android:text="Email Member"
+            android:textColor="@color/brown1"
+            android:textSize="8dp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/imageMember"
+            android:layout_toEndOf="@id/imageMember"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_below="@id/favoritMember"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/passMember"
+            android:text="Pass Member"
+            android:textColor="@color/brown1"
+            android:textSize="8dp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/imageMember"
+            android:layout_toEndOf="@id/imageMember"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_below="@id/emailMember"/>
+
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>

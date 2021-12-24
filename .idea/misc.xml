@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/TemanNgopi/app/src/main/res/layout/activity_admin_dashboard.xml" value="0.18206521739130435" />
+        <entry key="..\:/TemanNgopi/app/src/main/res/layout/activity_dashboard.xml" value="0.22509057971014493" />
+        <entry key="..\:/TemanNgopi/app/src/main/res/layout/activity_edit_akun.xml" value="0.17798913043478262" />
+        <entry key="..\:/TemanNgopi/app/src/main/res/layout/activity_home.xml" value="0.22509057971014493" />
+        <entry key="..\:/TemanNgopi/app/src/main/res/layout/activity_intro.xml" value="0.22509057971014493" />
+        <entry key="..\:/TemanNgopi/app/src/main/res/layout/activity_main.xml" value="0.18206521739130435" />
+        <entry key="..\:/TemanNgopi/app/src/main/res/layout/item_member.xml" value="0.1743659420289855" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK" />
+</project>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Teman Ngopi</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="tempat_kopi">Kopi A</string>
+</resources>
